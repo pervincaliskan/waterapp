@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0621EDA42B66D13B00974C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621EDA32B66D13B00974C30 /* AppDelegate.swift */; };
-		0621EDA62B66D13B00974C30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621EDA52B66D13B00974C30 /* SceneDelegate.swift */; };
-		0621EDA82B66D13B00974C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621EDA72B66D13B00974C30 /* ViewController.swift */; };
-		0621EDAB2B66D13B00974C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0621EDA92B66D13B00974C30 /* Main.storyboard */; };
 		0621EDAD2B66D13D00974C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0621EDAC2B66D13D00974C30 /* Assets.xcassets */; };
 		0621EDB02B66D13D00974C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0621EDAE2B66D13D00974C30 /* LaunchScreen.storyboard */; };
+		06AB83D82B66DBA900A83534 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AB83D72B66DBA900A83534 /* SplashViewController.swift */; };
+		06AB83DB2B66E1BF00A83534 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06AB83DA2B66E1BF00A83534 /* Poppins-Bold.ttf */; };
+		06AB83DD2B66E1ED00A83534 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06AB83DC2B66E1ED00A83534 /* Poppins-SemiBold.ttf */; };
+		06AB83DF2B66E20100A83534 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06AB83DE2B66E20100A83534 /* Poppins-Medium.ttf */; };
+		06AB83E12B66E20A00A83534 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06AB83E02B66E20A00A83534 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0621EDA02B66D13B00974C30 /* waterapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0621EDA32B66D13B00974C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0621EDA52B66D13B00974C30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0621EDA72B66D13B00974C30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0621EDAA2B66D13B00974C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0621EDAC2B66D13D00974C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0621EDAF2B66D13D00974C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0621EDB12B66D13D00974C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06AB83D72B66DBA900A83534 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		06AB83DA2B66E1BF00A83534 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		06AB83DC2B66E1ED00A83534 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		06AB83DE2B66E20100A83534 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		06AB83E02B66E20A00A83534 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,49 @@
 		0621EDA22B66D13B00974C30 /* waterapp */ = {
 			isa = PBXGroup;
 			children = (
-				0621EDA32B66D13B00974C30 /* AppDelegate.swift */,
-				0621EDA52B66D13B00974C30 /* SceneDelegate.swift */,
-				0621EDA72B66D13B00974C30 /* ViewController.swift */,
-				0621EDA92B66D13B00974C30 /* Main.storyboard */,
-				0621EDAC2B66D13D00974C30 /* Assets.xcassets */,
-				0621EDAE2B66D13D00974C30 /* LaunchScreen.storyboard */,
+				06AB83D62B66DB5B00A83534 /* Controllers */,
+				06AB83D52B66DB3800A83534 /* Resource */,
+				06AB83D42B66DB1A00A83534 /* Application */,
 				0621EDB12B66D13D00974C30 /* Info.plist */,
 			);
 			path = waterapp;
+			sourceTree = "<group>";
+		};
+		06AB83D42B66DB1A00A83534 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0621EDA32B66D13B00974C30 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		06AB83D52B66DB3800A83534 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				06AB83D92B66E16600A83534 /* Fonts */,
+				0621EDAE2B66D13D00974C30 /* LaunchScreen.storyboard */,
+				0621EDAC2B66D13D00974C30 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		06AB83D62B66DB5B00A83534 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				06AB83D72B66DBA900A83534 /* SplashViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		06AB83D92B66E16600A83534 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				06AB83E02B66E20A00A83534 /* Poppins-Regular.ttf */,
+				06AB83DE2B66E20100A83534 /* Poppins-Medium.ttf */,
+				06AB83DC2B66E1ED00A83534 /* Poppins-SemiBold.ttf */,
+				06AB83DA2B66E1BF00A83534 /* Poppins-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0621EDB02B66D13D00974C30 /* LaunchScreen.storyboard in Resources */,
+				06AB83DD2B66E1ED00A83534 /* Poppins-SemiBold.ttf in Resources */,
+				06AB83DB2B66E1BF00A83534 /* Poppins-Bold.ttf in Resources */,
+				06AB83E12B66E20A00A83534 /* Poppins-Regular.ttf in Resources */,
 				0621EDAD2B66D13D00974C30 /* Assets.xcassets in Resources */,
-				0621EDAB2B66D13B00974C30 /* Main.storyboard in Resources */,
+				06AB83DF2B66E20100A83534 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0621EDA82B66D13B00974C30 /* ViewController.swift in Sources */,
 				0621EDA42B66D13B00974C30 /* AppDelegate.swift in Sources */,
-				0621EDA62B66D13B00974C30 /* SceneDelegate.swift in Sources */,
+				06AB83D82B66DBA900A83534 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0621EDA92B66D13B00974C30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0621EDAA2B66D13B00974C30 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0621EDAE2B66D13D00974C30 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,8 +328,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = waterapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,8 +355,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = waterapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
