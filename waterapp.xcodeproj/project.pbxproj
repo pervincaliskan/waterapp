@@ -10,11 +10,15 @@
 		0621EDA42B66D13B00974C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621EDA32B66D13B00974C30 /* AppDelegate.swift */; };
 		0621EDAD2B66D13D00974C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0621EDAC2B66D13D00974C30 /* Assets.xcassets */; };
 		0621EDB02B66D13D00974C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0621EDAE2B66D13D00974C30 /* LaunchScreen.storyboard */; };
-		06AB83D82B66DBA900A83534 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AB83D72B66DBA900A83534 /* SplashViewController.swift */; };
 		06AB83DB2B66E1BF00A83534 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06AB83DA2B66E1BF00A83534 /* Poppins-Bold.ttf */; };
 		06AB83DD2B66E1ED00A83534 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06AB83DC2B66E1ED00A83534 /* Poppins-SemiBold.ttf */; };
 		06AB83DF2B66E20100A83534 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06AB83DE2B66E20100A83534 /* Poppins-Medium.ttf */; };
 		06AB83E12B66E20A00A83534 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06AB83E02B66E20A00A83534 /* Poppins-Regular.ttf */; };
+		2C5091E22B711727004D1A9D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5091E12B711727004D1A9D /* BaseViewModel.swift */; };
+		2C5091E42B711735004D1A9D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5091E32B711735004D1A9D /* BaseViewController.swift */; };
+		2C5091E62B711744004D1A9D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5091E52B711744004D1A9D /* Observable.swift */; };
+		2C5091E92B711767004D1A9D /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5091E82B711767004D1A9D /* SplashViewController.swift */; };
+		2C5091EB2B711770004D1A9D /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5091EA2B711770004D1A9D /* SplashViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +27,15 @@
 		0621EDAC2B66D13D00974C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0621EDAF2B66D13D00974C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0621EDB12B66D13D00974C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06AB83D72B66DBA900A83534 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		06AB83DA2B66E1BF00A83534 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		06AB83DC2B66E1ED00A83534 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		06AB83DE2B66E20100A83534 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		06AB83E02B66E20A00A83534 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		2C5091E12B711727004D1A9D /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		2C5091E32B711735004D1A9D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2C5091E52B711744004D1A9D /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		2C5091E82B711767004D1A9D /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		2C5091EA2B711770004D1A9D /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 		0621EDA22B66D13B00974C30 /* waterapp */ = {
 			isa = PBXGroup;
 			children = (
+				2C5091DF2B711716004D1A9D /* Helpers */,
 				06AB83D62B66DB5B00A83534 /* Controllers */,
 				06AB83D52B66DB3800A83534 /* Resource */,
 				06AB83D42B66DB1A00A83534 /* Application */,
@@ -89,7 +98,7 @@
 		06AB83D62B66DB5B00A83534 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				06AB83D72B66DBA900A83534 /* SplashViewController.swift */,
+				2C5091E72B711758004D1A9D /* Splash */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -103,6 +112,33 @@
 				06AB83DA2B66E1BF00A83534 /* Poppins-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2C5091DF2B711716004D1A9D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C5091E02B71171A004D1A9D /* BaseScenes */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2C5091E02B71171A004D1A9D /* BaseScenes */ = {
+			isa = PBXGroup;
+			children = (
+				2C5091E12B711727004D1A9D /* BaseViewModel.swift */,
+				2C5091E32B711735004D1A9D /* BaseViewController.swift */,
+				2C5091E52B711744004D1A9D /* Observable.swift */,
+			);
+			path = BaseScenes;
+			sourceTree = "<group>";
+		};
+		2C5091E72B711758004D1A9D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				2C5091E82B711767004D1A9D /* SplashViewController.swift */,
+				2C5091EA2B711770004D1A9D /* SplashViewModel.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0621EDA42B66D13B00974C30 /* AppDelegate.swift in Sources */,
-				06AB83D82B66DBA900A83534 /* SplashViewController.swift in Sources */,
+				2C5091E62B711744004D1A9D /* Observable.swift in Sources */,
+				2C5091E42B711735004D1A9D /* BaseViewController.swift in Sources */,
+				2C5091EB2B711770004D1A9D /* SplashViewModel.swift in Sources */,
+				2C5091E22B711727004D1A9D /* BaseViewModel.swift in Sources */,
+				2C5091E92B711767004D1A9D /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
